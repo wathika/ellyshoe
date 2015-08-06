@@ -1,0 +1,19 @@
+.left-margin{
+        margin: 20px;
+}
+
+.list-group{
+        width: 200px;
+}
+
+.nav-pills {
+        margin: 0 auto;
+        padding: 0;
+        width: 475px;
+}
+
+/*Unslider*/
+.unslider { position: relative; overflow: auto; }
+    .unslider li { list-style: none; }
+        .unslider ul li { float: left; }
+

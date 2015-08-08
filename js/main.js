@@ -1,5 +1,5 @@
 function get_email_link (link_title) {
-	var username = "jbrillon95";
+	var username = "elly.jq.su";
 	var hostname = "gmail.com";
 	var link = username + "@" + hostname;
 	link_title = link_title || link;

@@ -12,8 +12,7 @@
         width: 475px;
 }
 
-/*Unslider*/
-.unslider { position: relative; overflow: auto; }
-    .unslider li { list-style: none; }
-        .unslider ul li { float: left; }
+#footer { text-align: center; }
+#footer ul { list-style: none; }
+#footer ul li { display: inline; }
 

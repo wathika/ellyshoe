@@ -28,3 +28,22 @@
 #contact ul { list-style: none; }
 #contact ul li div p {text-align: justify;}
 
+.resize70 {
+	width:70%;
+	height:auto;
+}
+
+.resize {
+	width:100%;
+	height:auto;
+}
+
+.resize96 {
+	width:100%;
+	height:auto;
+}
+
+.caption {
+	text-align:center; 
+	padding-top:10px;
+}

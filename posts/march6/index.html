@@ -17,7 +17,7 @@
 
 <body>
     <!-- header logo -->
-    <div class="page-header">
+    <div class="page-header" id="top-post1">
         <div class="container">
             <div class="col-md-3"></div>
             <div class="col-md-6">
@@ -176,7 +176,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <a href="#">
+                <a href="#top-post1">
                     <p style="text-align:center; padding-top:9px; font-size:19px;" class="lead black">
                         <em>Back to Top</em>
                     </p>
@@ -219,6 +219,25 @@
             </li>
         </ul>
     </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script>
+        $(function() {
+          $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                $('html,body').animate({
+                  scrollTop: target.offset().top-0
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        });
+    </script>
+
 
     <!-- JavaScript CDNs -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
